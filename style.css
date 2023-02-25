@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgba(87, 47, 157, 0.873);
+}
+
+.main-container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form .display{
+    display: flex;
+    justify-content: end;
+    margin: 10px 0px;
+}
+.cal{
+    background-color: rgba(59, 52, 71, 0.873);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cal form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+form input.equal{
+    width: 145px;
+}
+
+form .display input{
+    width: 100%;
+    text-align: right;
+    padding: 5px;
+    box-shadow: none;
+    font-size: 25px;
+}
+
+
+
